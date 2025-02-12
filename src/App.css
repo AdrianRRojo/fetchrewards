@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* .fjalla-one-regular {
+  font-family: "Fjalla One", serif;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+body{
+  
+  background-color: rgb(249 247 241 / 1);
+  font-family: "Poppins", serif;
+  font-weight: 500;
+
+  /* Purple: #2F0C38; */
+  /* Orange: #F8A619; */
+  /* Gray: #403F41; */
+}
+#register-logo{
+  width: 12vw;
+}
+.signup-container {
+  /* border: 2px solid red; */
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  overflow: hidden;
+}
+
+.signup-title {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-input {
+  width: 25vw;
+  padding: .35vw;
+  box-sizing: border-box;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #F8A619;
+  color: white;
+  border-radius: 1.25vw;
+  border: none;
+  cursor: pointer;
+}
+
+.message {
+  text-align: center;
+  margin-top: 10px;
+}
+.load-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1vw;
+}
+
+.load {
+  border: 4px solid #2F0C38;
+  border-top: 4px solid #F8A619; 
+  border-radius: 50%;
+  width: 1.5vw;
+  height: 1.5vw;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
