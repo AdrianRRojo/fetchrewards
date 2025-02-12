@@ -1,3 +1,9 @@
+#logout{
+  top: 0;
+  right: 0;
+  margin: 1.2vw;
+  position: absolute;
+}
 .dashboard {
     max-width: 1200px;
     margin: 0 auto;
