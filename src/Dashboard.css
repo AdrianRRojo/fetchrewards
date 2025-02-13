@@ -1,28 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1vw;
+}
+a, input, select, button{
+  cursor: pointer;
+}
 #logout{
   top: 0;
   right: 0;
-  margin: 1.2vw;
+  margin: .5vw;
   position: absolute;
+  /* width: 100%; */
+  padding-top: .75vw;
+  padding-bottom: .75vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  background-color: #F8A619;
+  color: white;
+  border-radius: 1.25vw;
+  border: none;
+  cursor: pointer;
+}
+#title{
+  font-family: "Delicious Handrawn", serif;
 }
 .dashboard {
-    max-width: 1200px;
+    max-width: 75%;
     margin: 0 auto;
     padding: 20px;
     font-family: Arial, sans-serif;
   }
   
   .filters {
-    margin-bottom: 20px;
+    margin-bottom: 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 1;
   }
   
   .breed-select {
-    width: 200px;
-    padding: 5px;
+    width: 15vw;
+    padding: .25vw;
   }
   
   .sort-select {
-    margin-left: 10px;
-    padding: 5px;
+    margin-left: 1vw;
+    padding: .25vw;
   }
   
   .dog-grid {
@@ -32,11 +60,20 @@
   }
   
   .dog-card {
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    padding: 10px;
+    background-color: white;
+    border-radius: 1vw;
+    padding: 1.5vw;
   }
-  
+  .dog-img{
+    border: 2px solid #2F0C38;
+    border-radius: 1.25vw;
+  }
+  .dog-name{
+    text-align: center;
+    margin: .5vw;
+    font-size: 1.75vw;
+    /* font-family: "Delicious Handrawn", serif; */
+  }
   .pagination {
     display: flex;
     justify-content: center;
@@ -44,16 +81,31 @@
   }
   
   .pagination button {
-    margin: 0 5px;
-    padding: 5px 10px;
-    background-color: #f0f0f0;
-    border: 1px solid #ddd;
+    margin: 0 4vw;
+    background: none;
+    border-style: none;
     cursor: pointer;
+
   }
   
   .pagination button:disabled {
     opacity: 0.5;
     cursor: not-allowed;
   }
+  .pagination-image{
+    width: 3vw;
+  }
   
-  
+  .fav{
+    width: 20vw;
+    max-height: 25vw;
+    border: 2px solid #F8A619;
+  }
+
+  .fav-name{
+    color: #F8A619;
+    text-align: start;
+  }
+  #top-fav{
+    padding: .25vw;
+  }

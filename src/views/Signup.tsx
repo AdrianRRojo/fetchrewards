@@ -124,10 +124,11 @@ function Signup() {
         </>
       ) : (
         <>
-          <Dashboard />
           <button id="logout" onClick={handleLogout}>
             Logout
           </button>
+          <Dashboard />
+          
         </>
       )}
     </div>
