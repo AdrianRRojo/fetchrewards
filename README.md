@@ -1,3 +1,9 @@
+## Deployed Application
+
+The deployed application can be accessed at:
+
+[https://fetchfe-beac9.web.app/](https://fetchfe-beac9.web.app/)
+
 # Fetch Frontend Take-Home Exercise
 
 This project is a React application built with TypeScript for the Fetch Rewards Frontend Take-Home Exercise. It allows users to browse and filter a list of dogs, add them to their favorites, and generate a match based on their favorite dogs.
