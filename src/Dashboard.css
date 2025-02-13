@@ -109,3 +109,17 @@ a, input, select, button{
   #top-fav{
     padding: .25vw;
   }
+
+
+  @media (max-width: 767px) {
+    .header{
+      flex-direction: column;
+    }
+    .fav{
+      width: 30vw;
+      max-height: 30vw;
+    }
+    .dog-name{
+      font-size: 3vw;
+    }
+  }

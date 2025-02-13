@@ -56,8 +56,8 @@ function Signup() {
       );
 
       if (response.ok) {
-        setMessage("Sign up successful!");
-        setLoggedIn(true);
+        window.location.reload();
+        setLoggedIn(false);
       } else {
         setMessage("Sign up failed. Please try again.");
       }

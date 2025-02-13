@@ -96,3 +96,24 @@ body{
 }
 
 
+@media (max-width: 767px) {
+  .form{
+    width: 50vw;
+  }
+  .form-input{
+    width: 100%;
+  }
+  #register-logo{
+    width: 20vw;
+  }
+  .pagination-image{
+    width: 5vw;
+  }
+  #logout{
+    margin: 1vw;
+  }
+  .load{
+    width: 3vw;
+    height: 3vw;
+  }
+}
